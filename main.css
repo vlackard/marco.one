@@ -25,14 +25,21 @@ a {
     color: #0083e8;
 }
 
-p {
-    font-size: 20px;
-}
-
 b, strong {
     font-weight: 600;
 }
 
 samp {
     display: none;
+}
+
+p {
+  font-size: 1.1em;
+  width: 70%;
+}
+@media only screen and (max-width: 960px) {
+  p {
+    width: 95%;
+    font-size: 1em;
+  }
 }
