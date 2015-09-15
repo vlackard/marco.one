@@ -40,6 +40,6 @@ p {
 @media only screen and (max-width: 960px) {
   p {
     width: 95%;
-    font-size: 1em;
+    font-size: 1.4em;
   }
 }
