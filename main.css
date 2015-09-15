@@ -32,14 +32,3 @@ b, strong {
 samp {
     display: none;
 }
-
-p {
-  font-size: 1.1em;
-  width: 70%;
-}
-@media only screen and (max-width: 960px) {
-  p {
-    width: 95%;
-    font-size: 1.4em;
-  }
-}
