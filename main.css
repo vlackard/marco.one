@@ -1,59 +1,38 @@
+
 body {
     margin: 0 auto;
     padding: 2em 2em 4em;
+    max-width: 800px;
     font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-    font-size: 16px;
-    line-height: 1.3em;
-    color: #232323;
-}
-@media only screen and (max-width: 960px) {
-  body {
-    font-size: 15px;
-    line-height: 1.1em;
-  }
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
-header {
-    color: #232323;
-    position: absolute;
-    right: 40px;
-    top: 60px;
-    z-index: 99999;
-    text-align: right;
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
     line-height: 1.3em;
 }
-@media only screen and (max-width: 960px) {
-    header {
-        right: 25px;
-        top: 40px;
-    }
+
+h2 {
+    margin-top: 1.3em;
 }
-header h1 {
-    font-size: 1.3em;
-    font-family: "nitti_medium", sans-serif;
-    margin-top: 0.3em;
+
+a {
+    color: #0083e8;
 }
-@media only screen and (max-width: 960px) {
-    header h1 {
-        font-size: 1em;
-    }
+
+p {
+    font-size: 20px;
 }
-header h2 {
-    font-size: 1.3em;
-    margin-top: 0.3em;
+
+b, strong {
+    font-weight: 600;
 }
-@media only screen and (max-width: 960px) {
-    header h2 {
-        font-size: 1em;
-    }
-}
-header p {
-    line-height: 2em;
-    color: #232323;
-    text-decoration: none;
-}
-@media only screen and (max-width: 960px) {
-    header p {
-        font-size: 0.8em;
-    }
+
+samp {
+    display: none;
 }
