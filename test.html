@@ -8,17 +8,16 @@
  
     <script>
     window.onload = function() {
-        var now = new Date().valueOf();
-        setTimeout(function () {
-            if (new Date().valueOf() - now > 500) return;
-        }, 100);
+    <!-- Deeplink URL for existing users with app already installed on their device -->
         window.location = 'abrirfritimeapp://';
+    <!-- Download URL (MAT link) for new users to download the app -->
+        setTimeout("window.location = 'http://friti.me", 1000);
     }
     </script>
 </head>
 <body>
  
-    <p>Hola 2</p>
+    <p>Hola 3</p>
  
 </body>
 </html>
