@@ -8,14 +8,17 @@
  
     <script>
     window.onload = function() {
-    <!-- Deeplink URL for existing users with app already installed on their device -->
+        var now = new Date().valueOf();
+        setTimeout(function () {
+            if (new Date().valueOf() - now > 500) return;
+        }, 100);
         window.location = 'abrirfritimeapp://';
     }
     </script>
 </head>
 <body>
  
-    <p>Hola</p>
+    <p>Hola 2</p>
  
 </body>
 </html>
